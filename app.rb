@@ -6,9 +6,9 @@ class App < Sinatra::Base
     erb :fortune
   end
 
-post "/restults" do
+post "/results" do
   
-  erb :restults
+  erb :results
 end
   
 end
