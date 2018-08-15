@@ -9,5 +9,6 @@ class App < Sinatra::Base
 post "/restults" do
   
   erb :restults
+end
   
 end
