@@ -6,6 +6,8 @@ class App < Sinatra::Base
     erb :fortune
   end
 
-  # Add your post route and action below
+post "/restults" do
+  
+  erb :restults
   
 end
