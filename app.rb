@@ -9,7 +9,7 @@ class App < Sinatra::Base
 post "/results" do
   @name = params[:name]
   @sign = params[:sign]
-  @
+  @been_before
   erb :results
 end
   
